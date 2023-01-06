@@ -1,8 +1,8 @@
-import './CardSlider.css';
+// import './CardSlider.css';
 import { useState } from 'react';
 
 function CardSlider(){
-    const [count, setCount] = useState(0);
+    // const [count, setCount] = useState(0);
     return (
         <div id="card-slider">
             <CardList />
@@ -201,6 +201,8 @@ function CardList() {
                             ]);
                             setCard(0);
                             break;
+                        default:
+                            break;
                         }
                     }
                 }
@@ -360,6 +362,8 @@ function CardList() {
                                 },
                             ]);
                             setCard(3);
+                            break;
+                        default:
                             break;
                         }
                 }

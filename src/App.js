@@ -1,10 +1,11 @@
 import './App.css';
-import CardSlider from './Cardslider';
+// import CardSlider from './Cardslider';
+import CardSliderer from './CardSliderer';
 
 function App() {
   return (
     <div className="App">
-      <CardSlider />
+      <CardSliderer />
     </div>
   );
 }
